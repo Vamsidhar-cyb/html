@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+  </head>
+
+  <body >
+    <!-- <h1 style="text-align: center">Games Gallery</h1> -->
+    <div style="display: flex;">
+        <div class="sidebar" style="width: 25%;">
+        <h3>Categories</h3>
+        <ul>
+            <li><a href="#" onclick="filterGallery('all')">All Photos</a></li>
+            <li><a href="#" onclick="filterGallery('bird')">bird</a></li>
+            <li><a href="#" onclick="filterGallery('panda')">panda</a></li>
+            <li><a href="#" onclick="filterGallery('puppy')">puppy</a></li>
+        </ul>
+        </div>
+    
+    <div class="gallery">
+                 
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXhjdjFma3AxODNuczF4amk4ODA4MTRsd3hwbDBic2lxMjQwdGczaCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/zlVf2eSgXIFFuTnEhz/giphy.gif"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/oFI7FttD0iC8V2Iqmy/giphy.gif?cid=790b7611mxcv1fkp183ns1xji880814lwxpl0bsiq240tg3h&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/ceHKRKMR6Ojao/giphy.gif?cid=790b7611mxcv1fkp183ns1xji880814lwxpl0bsiq240tg3h&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/WXgQucWm9SUHm/giphy.gif?cid=790b7611mxcv1fkp183ns1xji880814lwxpl0bsiq240tg3h&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/SV63vRghMa84ekG0AC/giphy.gif?cid=790b7611agv44lb0iz8zeibjifsgwagmz5xdx4ch4chwlhoy&ep=v1_gifs_search&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/Ddm5ER7Z45sIM/giphy.gif?cid=ecf05e47x84djrstv5cvhqbyc5snnu6v71lr11g45wda3jac&ep=v1_gifs_related&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/AyCMc7Yr6kSCk/giphy.gif?cid=ecf05e474d85ifgtzb0y63knqfo64c3snurmxivmrbqvjlf5&ep=v1_gifs_related&rid=giphy.gif&ct=g" class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/AyCMc7Yr6kSCk/giphy.gif?cid=ecf05e474d85ifgtzb0y63knqfo64c3snurmxivmrbqvjlf5&ep=v1_gifs_related&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/FO4lgeCgKkC2I/giphy.gif?cid=ecf05e474d85ifgtzb0y63knqfo64c3snurmxivmrbqvjlf5&ep=v1_gifs_related&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/8DMcPUczc3cze/giphy.gif?cid=ecf05e474d85ifgtzb0y63knqfo64c3snurmxivmrbqvjlf5&ep=v1_gifs_related&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/3o6Zt070I6mRvp39VS/giphy.gif?cid=ecf05e47x84djrstv5cvhqbyc5snnu6v71lr11g45wda3jac&ep=v1_gifs_related&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/rWqYADRfHCUMw/giphy.gif?cid=ecf05e47x84djrstv5cvhqbyc5snnu6v71lr11g45wda3jac&ep=v1_gifs_related&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/RdkqqS0Euma2I/giphy.gif?cid=ecf05e47x84djrstv5cvhqbyc5snnu6v71lr11g45wda3jac&ep=v1_gifs_related&rid=giphy.gif&ct=g"  class="photo bird" height="200px" width="300px"/>
+
+
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2pucGdoeWYxYzVoaDV0M3YzNzd4ZmlzeGdmYWUzOGFscG01NGxudiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xUPGciUCChQbl1NSPC/giphy.gif" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2pucGdoeWYxYzVoaDV0M3YzNzd4ZmlzeGdmYWUzOGFscG01NGxudiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26ybvMeJmCaPtcNDW/giphy.gif" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2pucGdoeWYxYzVoaDV0M3YzNzd4ZmlzeGdmYWUzOGFscG01NGxudiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lqLNp3dJlWihNuhegE/giphy.gif" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/z6xE1olZ5YP4I/giphy.gif?cid=790b76113jnpghyf1c5hh5t3v377xfisxgfae38alpm54lnv&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/nVsLCrW5iHf6E/giphy.gif?cid=ecf05e47vxama9c26xubtkg3bbw0s2ujnw8zlza2r6f9q4gk&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/12L6wFC7gHKQ92/giphy.gif?cid=790b76113jnpghyf1c5hh5t3v377xfisxgfae38alpm54lnv&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/oVpjKztlM9joc/giphy.gif?cid=790b76113jnpghyf1c5hh5t3v377xfisxgfae38alpm54lnv&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/ZdRfhQispEudi/giphy.gif?cid=ecf05e47vxama9c26xubtkg3bbw0s2ujnw8zlza2r6f9q4gk&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/Z5PxhW6BlWJjCkoPIQ/giphy.gif?cid=ecf05e47vxama9c26xubtkg3bbw0s2ujnw8zlza2r6f9q4gk&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/qSxNuLJsb5NPq/giphy.gif?cid=ecf05e47vxama9c26xubtkg3bbw0s2ujnw8zlza2r6f9q4gk&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/GA2Opryocs0tq/giphy.gif?cid=ecf05e47vxama9c26xubtkg3bbw0s2ujnw8zlza2r6f9q4gk&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/GA2Opryocs0tq/giphy.gif?cid=ecf05e47vxama9c26xubtkg3bbw0s2ujnw8zlza2r6f9q4gk&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/qGBUQakQuGkvu/giphy.gif?cid=ecf05e47xkmlor3n4gk2i61sgrebvj8yixqethasm3ap8zsi&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/ehUrSSSiPV6yT1rFxE/giphy.gif?cid=ecf05e47xkmlor3n4gk2i61sgrebvj8yixqethasm3ap8zsi&ep=v1_gifs_search&rid=giphy.gif&ct=g" class="photo panda" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm9uNnRhc2E3anN2Z3RmcHFoMW00dm95Mnc0Z2pkeHN0OTdrMXhkbCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/Jmy9PcqvnNdt1LHNX4/giphy.gif" class="photo panda" height="200px" width="300px"/>
+
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpleGViZmJsbTN6bmNmODNyZ2xoNjd5aGRyN3FpN2xxazgzeTR2biZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/l0Iyn7tLB2ElWvQ8U/giphy.gif" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpleGViZmJsbTN6bmNmODNyZ2xoNjd5aGRyN3FpN2xxazgzeTR2biZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/M3TlQDKipj3C8/giphy.gif" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpleGViZmJsbTN6bmNmODNyZ2xoNjd5aGRyN3FpN2xxazgzeTR2biZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/3ohzdWQIuwyNwitdGE/giphy.gif" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/3oKIPldUIzDDJBmu9q/giphy.gif?cid=790b761142olx72nxoh0tlb03tzop8jwjdp9ew76m92tdo5d&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/l1BgSyWWXLT2FVOyQ/giphy.gif?cid=790b761142olx72nxoh0tlb03tzop8jwjdp9ew76m92tdo5d&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/qEESUJBAKas36/giphy.gif?cid=790b761142olx72nxoh0tlb03tzop8jwjdp9ew76m92tdo5d&ep=v1_stickers_search&rid=giphy.gif&ct=s"     class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/B1VDGVDxD3tp99BgwH/giphy.gif?cid=790b761142olx72nxoh0tlb03tzop8jwjdp9ew76m92tdo5d&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/3og0IMoj0s3KsOnI5O/giphy.gif?cid=ecf05e473j7nnirt7ibm52ww12swrayabilnvfcfn1ygx8i2&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/l4FGpDJDZXcSxNTk4/giphy.gif?cid=ecf05e473j7nnirt7ibm52ww12swrayabilnvfcfn1ygx8i2&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/l0Iy6JdHfJHop9oBy/giphy.gif?cid=ecf05e473j7nnirt7ibm52ww12swrayabilnvfcfn1ygx8i2&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/55cVTSP1QhCgcrKVVW/giphy.gif?cid=ecf05e473j7nnirt7ibm52ww12swrayabilnvfcfn1ygx8i2&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/hSLd99QCKbuzE87Lvu/giphy.gif?cid=ecf05e47083xlskyn6xdimp2qzyfyl2l9x6gf52jdm3kxld4&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/xUA7aUH48VXQQt7bGg/giphy.gif?cid=ecf05e47083xlskyn6xdimp2qzyfyl2l9x6gf52jdm3kxld4&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/3oKIPuCvPI5JOqKvfO/giphy.gif?cid=ecf05e47083xlskyn6xdimp2qzyfyl2l9x6gf52jdm3kxld4&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/xUPGcIdvSfZrzBlnJS/giphy.gif?cid=ecf05e4746wi8rv3cf81m0azs17gl5hlbdy7yhx6j09e4kdr&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/3oKIP8KKYpv11ivQ1G/giphy.gif?cid=ecf05e4746wi8rv3cf81m0azs17gl5hlbdy7yhx6j09e4kdr&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/xUPGcgm8EWFDqXrXGg/giphy.gif?cid=ecf05e47nnvizos63m1fvl79l169bdm59lax80nb6sbzfvn7&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        <img src="https://media.giphy.com/media/l0Iybc5xq2Q5LxkL6/giphy.gif?cid=ecf05e47nnvizos63m1fvl79l169bdm59lax80nb6sbzfvn7&ep=v1_stickers_search&rid=giphy.gif&ct=s" class="photo puppy" height="200px" width="300px"/>
+        
+         
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+ </html>
